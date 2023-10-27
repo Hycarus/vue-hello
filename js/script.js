@@ -5,8 +5,11 @@ createApp({
         return {
             text: 'Buonanotte stelline!',
             image: "../img/stars.jpeg",
-            backgroundImage: "background-image: url(../img/stars.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;",
+            backgroundImage: "background-image: url(../img/stars.jpeg)",
             textColor: "text-light",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center"
         }
     },
     // contiene le funzioni e i metodi
