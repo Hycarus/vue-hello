@@ -26,14 +26,12 @@
   </head>
 
   <body>
-
-    <main>
-        <div id="app">
-            <h1 class="text-center">{{text}}</h1>
-            <img :src="image" alt="stars">
-        </div>
-   </main>
-
+    <div id="app">
+        <main :style="backgroundImage" class="vh-100 vw-100">
+            <h1 class="text-center display-1 d-flex justify-content-center" :class="textColor">{{text}}</h1>
+            <!-- <img :src="image" alt="stars">  -->
+        </main>
+    </div>
 
     <!-- My JS -->
    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
